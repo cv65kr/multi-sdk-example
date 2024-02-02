@@ -1,0 +1,18 @@
+{
+  "name": "transfergo/payments-gateway-service",
+  "description": "Description of your payments-gateway service",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=8.1.0",
+    "ext-sdk-php": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[package]
+name = "sdk-php"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+sdk-core = { version = "0.1.1", path = "./../../sdk-core" }
+ext-php-rs = "0.12.0"
+
+[profile.release]
+strip = "debuginfo"

@@ -1,0 +1,13 @@
+# Multi SDK
+
+Example how to use Rust to create SDK for various languages with core logic.
+
+## Run
+```
+cargo build
+```
+
+## SDK
+[PHP](./sdk-php/Readme.md)
+
+[Typescript](./sdk-typescript/Readme.md)

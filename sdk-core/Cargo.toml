@@ -1,0 +1,7 @@
+[package]
+name = "sdk-core"
+version = "0.1.1"
+edition = "2021"
+
+[dependencies]
+email_address = "0.2.4"

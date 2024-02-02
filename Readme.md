@@ -11,3 +11,5 @@ cargo build
 [PHP](./sdk-php/Readme.md)
 
 [Typescript](./sdk-typescript/Readme.md)
+
+[Python](./sdk-python/Readme.md)

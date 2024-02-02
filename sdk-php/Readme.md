@@ -1,3 +1,8 @@
+Run:
+```
+cargo build
+```
+
 Run tests:
 
 ```bash
@@ -8,3 +13,4 @@ Stubs
 ```bash
 cargo php stubs --stdout
 ```
+and put into IDE

@@ -34,12 +34,12 @@ mod tests {
         let person = Person {
             id: 5,
             name: "Janet".to_string(),
-            email: "test@example.com".to_string(),
+            email: "test@tests.com".to_string(),
         };
 
         assert_eq!(*person.get_id(), 5);
         assert_eq!(*person.get_name(), "Janet");
-        assert_eq!(*person.get_email(), "test@example.com");
+        assert_eq!(*person.get_email(), "test@tests.com");
     }
 
     #[test]
@@ -47,7 +47,7 @@ mod tests {
         let person = Person {
             id: 5,
             name: "Janet".to_string(),
-            email: "test@example.com".to_string(),
+            email: "test@tests.com".to_string(),
         };
 
         assert_eq!(person.validate_email(), true)

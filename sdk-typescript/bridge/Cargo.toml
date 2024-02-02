@@ -1,7 +1,8 @@
 [package]
 name = "sdk-typescript"
 version = "0.1.0"
-edition = "2021"
+edition = "2018"
+exclude = ["index.node"]
 
 [lib]
 crate-type = ["cdylib"]

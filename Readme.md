@@ -7,7 +7,7 @@ Example how to use Rust to create SDK for various languages with core logic.
 cargo build
 ```
 
-## SDK
+## SDK examples
 [PHP](./sdk-php/Readme.md)
 
 [Typescript](./sdk-typescript/Readme.md)

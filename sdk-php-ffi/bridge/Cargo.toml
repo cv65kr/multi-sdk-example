@@ -1,0 +1,17 @@
+[package]
+name = "sdk-php-ffi"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+sdk-core = { version = "0.1.1", path = "./../../sdk-core" }
+
+[build-dependencies]
+cbindgen = "^0.26.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[profile.release]
+opt-level = 3
